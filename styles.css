@@ -185,21 +185,76 @@ header {
   bottom: -20px;
 }
 
-#html {
+#node {
+  left: 100px;
+  bottom: 80px;
   background-image: url("images/nodejs.png.png");
   background-size: cover;
-  background-color: rgb(175, 119, 227)
+  background-color: rgb(175, 119, 227);
+  box-shadow: -60px 60px 20px rgb(50 50 50 / 15%);
 }
 
-#html::before {
+#node::before {
   background-color: rgb(189, 154, 221)
 }
 
-#html::after {
+#node::after {
   background-color: rgb(205, 188, 221)
 }
 
 
+#php {
+  left: 250px;
+  bottom: 240px;
+  background-image: url("images/php.png.png");
+  background-size: cover;
+  background-color: rgb(227, 119, 191);
+  box-shadow: -60px 60px 20px rgb(50 50 50 / 15%);
+}
+
+#php::before {
+  background-color: rgb(221, 154, 207)
+}
+
+#php::after {
+  background-color: rgb(221, 188, 211)
+}
+
+
+#react {
+  left: 450px;
+  bottom: 200px;
+  background-image: url("images/react.png.png");
+  background-size: cover;
+  background-color: rgb(175, 119, 227);
+  box-shadow: -60px 60px 20px rgb(50 50 50 / 15%);
+}
+
+#react::before {
+  background-color: rgb(189, 154, 221)
+}
+
+#react::after {
+  background-color: rgb(205, 188, 221)
+}
+
+
+#python {
+  left: 350px;
+  bottom: 40px;
+  background-image: url("images/python.png.png");
+  background-size: cover;
+  background-color: rgb(119, 193, 227);
+  box-shadow: -60px 60px 20px rgb(50 50 50 / 15%);
+}
+
+#python::before {
+  background-color: rgb(154, 189, 221)
+}
+
+#python::after {
+  background-color: rgb(188, 200, 221)
+}
 
 
 
