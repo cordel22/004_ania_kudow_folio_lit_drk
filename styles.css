@@ -23,7 +23,7 @@ h2 {
   font-size: 40px;
   line-height: 40px;
   font-weight: 300;
-  margin: 10px 0;
+  margin: 0px 0;
 }
 
 p {
@@ -127,23 +127,29 @@ header {
 }
 
 #engines {
-  background-image: url("images/stiahnu1.jpg");
+  
+  background-image: url("images/engines.png");
   background-size: cover;
+  background-position: center;
 }
 
-#news {
-  background-image: url("images/stiahnu1.jpg");
+#nasa {
+  
+  background-image: url("images/nasa.png");
   background-size: cover;
+  background-position: center;
 }
 
-#mabrary {
-  background-image: url("images/stiahnu1.jpg");
+#travel {
+  background-image: url("images/travel.png");
   background-size: cover;
+  background-position: center;
 }
 
 #groovyhelix {
-  background-image: url("images/stiahnu1.jpg");
+  background-image: url("images/groovyhelix.png");
   background-size: cover;
+  background-position: center;
 }
 
 .sub-section {
